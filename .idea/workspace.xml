@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Configuracion de las clases del Problema de Param" />
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Implementacion del programa cuenta atras agregando un sleep mediante la utilizacion de Thread.sleep  para realizar la espera de 1 s entre cada interración. Se realiza posteriormente la captura de dicha excepción. (CountDownProgram.java)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +31,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CountDownProgram.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714393380946</updated>
-      <workItem from="1714393382030" duration="1081000" />
+      <workItem from="1714393382030" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -86,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714394302383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementacion del programa cuenta atras agregando un sleep mediante la utilizacion de Thread.sleep  para realizar la espera de 1 s entre cada interración. Se realiza posteriormente la captura de dicha excepción. (CountDownProgram.java)">
+      <option name="closed" value="true" />
+      <created>1714394760359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714394760359</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuracion de las clases del Problema de Param" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuracion de las clases del Problema de Param" />
+    <MESSAGE value="Implementacion del programa cuenta atras agregando un sleep mediante la utilizacion de Thread.sleep  para realizar la espera de 1 s entre cada interración. Se realiza posteriormente la captura de dicha excepción. (CountDownProgram.java)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacion del programa cuenta atras agregando un sleep mediante la utilizacion de Thread.sleep  para realizar la espera de 1 s entre cada interración. Se realiza posteriormente la captura de dicha excepción. (CountDownProgram.java)" />
   </component>
 </project>
