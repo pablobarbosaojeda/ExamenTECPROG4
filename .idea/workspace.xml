@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Creación de la base del bucle de InfiniteLoopProgram.java">
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/InfiniteLoopProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/InfiniteLoopProgram.java" afterDir="false" />
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714393380946</updated>
-      <workItem from="1714393382030" duration="1852000" />
+      <workItem from="1714393382030" duration="2880000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -106,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714394940288</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion.">
+      <option name="closed" value="true" />
+      <created>1714395335814</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714395335814</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +125,7 @@
     <MESSAGE value="Configuracion de las clases del Problema de Param" />
     <MESSAGE value="Implementacion del programa cuenta atras agregando un sleep mediante la utilizacion de Thread.sleep  para realizar la espera de 1 s entre cada interración. Se realiza posteriormente la captura de dicha excepción. (CountDownProgram.java)" />
     <MESSAGE value="Creación de la base del bucle de InfiniteLoopProgram.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de la base del bucle de InfiniteLoopProgram.java" />
+    <MESSAGE value="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion." />
   </component>
 </project>
