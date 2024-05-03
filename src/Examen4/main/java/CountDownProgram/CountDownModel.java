@@ -3,7 +3,7 @@ import java.util.Observable;
 public class CountDownModel extends Observable {
     private int count;
 
-    public CountDownModel(int count) {
+    public CountDownModel(int initialCount) {
         this.count = initialCount;
 
     }
@@ -12,10 +12,10 @@ public class CountDownModel extends Observable {
         if (count > 0) {
             count--;
             setChanged();
-            notifyObservers(count);
+            notifyObservers(count); //Notificar a los observadores el nuevo valor del contador
         }
     }
-    public boolean isFinished() {
-        return count == 0;
+   public int getCount() {
+        return count;
     }
 }

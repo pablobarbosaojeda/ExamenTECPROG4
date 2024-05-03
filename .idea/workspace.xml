@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Implementación del funcionamiento de Reverser.java">
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Realizado cambios en el CountdDownProgram. Decidido aplicar el MDV para distribuir las funciones del programa. Creado el CountDownModel empleanto un patron de diseño basado en Observer">
+      <change afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1714393382030" duration="4951000" />
       <workItem from="1714645918564" duration="33000" />
       <workItem from="1714645959408" duration="1562000" />
-      <workItem from="1714728174580" duration="1496000" />
+      <workItem from="1714728174580" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -142,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714729281807</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Realizado cambios en el CountdDownProgram. Decidido aplicar el MDV para distribuir las funciones del programa. Creado el CountDownModel empleanto un patron de diseño basado en Observer">
+      <option name="closed" value="true" />
+      <created>1714729918589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714729918589</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Realizado cambios en el CountdDownProgram. Decidido aplicar el MDV para distribuir las funciones del programa. Creado el CountDownModel empleanto un patron de diseño basado en Observer">
+      <option name="closed" value="true" />
+      <created>1714729956459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714729956459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +172,7 @@
     <MESSAGE value="Definición del booleano chechHalt para detener o no el programa si este encuentra o no su entrada especifica" />
     <MESSAGE value="Creamos el buble de comprobación de entrada." />
     <MESSAGE value="Implementación del funcionamiento de Reverser.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementación del funcionamiento de Reverser.java" />
+    <MESSAGE value="Realizado cambios en el CountdDownProgram. Decidido aplicar el MDV para distribuir las funciones del programa. Creado el CountDownModel empleanto un patron de diseño basado en Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizado cambios en el CountdDownProgram. Decidido aplicar el MDV para distribuir las funciones del programa. Creado el CountDownModel empleanto un patron de diseño basado en Observer" />
   </component>
 </project>
