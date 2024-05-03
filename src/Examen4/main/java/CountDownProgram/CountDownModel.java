@@ -1,5 +1,5 @@
 package CountDownProgram;
-import java.util.Observable
+import java.util.Observable;
 public class CountDownModel extends Observable {
     private int count;
 
