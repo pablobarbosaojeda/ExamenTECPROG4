@@ -1,4 +1,6 @@
-public class InfiniteLoopProgram {
+package InfiniteLoopProgram;
+
+public class InfiniteLoopModel {
     public static void main(String[] Args){
         int num = 1;
         while(true) {
