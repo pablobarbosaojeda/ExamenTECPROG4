@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion.">
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Implementación del funcionamiento de Reverser.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,35 +23,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fm5O6lGKaKatrszASjZpv8bjAz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CountDownProgram.executor": "Run",
-    "Application.InfiniteLoopProgram.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CountDownProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfiniteLoopProgram.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pablo\IdeaProjects\ExamenTECPROG4\src\Examen4" />
@@ -73,7 +73,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714393380946</updated>
-      <workItem from="1714393382030" duration="2880000" />
+      <workItem from="1714393382030" duration="4951000" />
+      <workItem from="1714645918564" duration="33000" />
+      <workItem from="1714645959408" duration="1562000" />
+      <workItem from="1714728174580" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -115,7 +118,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714395335814</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Definición del booleano chechHalt para detener o no el programa si este encuentra o no su entrada especifica">
+      <option name="closed" value="true" />
+      <created>1714396509350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714396509350</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creamos el buble de comprobación de entrada.">
+      <option name="closed" value="true" />
+      <created>1714396600217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714396600217</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implementación del funcionamiento de Reverser.java">
+      <option name="closed" value="true" />
+      <created>1714729281807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714729281807</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +153,9 @@
     <MESSAGE value="Implementacion del programa cuenta atras agregando un sleep mediante la utilizacion de Thread.sleep  para realizar la espera de 1 s entre cada interración. Se realiza posteriormente la captura de dicha excepción. (CountDownProgram.java)" />
     <MESSAGE value="Creación de la base del bucle de InfiniteLoopProgram.java" />
     <MESSAGE value="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion." />
+    <MESSAGE value="Definición del booleano chechHalt para detener o no el programa si este encuentra o no su entrada especifica" />
+    <MESSAGE value="Creamos el buble de comprobación de entrada." />
+    <MESSAGE value="Implementación del funcionamiento de Reverser.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementación del funcionamiento de Reverser.java" />
   </component>
 </project>
