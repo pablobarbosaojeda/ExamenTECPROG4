@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Corrección de enunciados javadoc en Reverser.java y generación de test de starCounting (CountDownControllerTest.java)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CountDownProgram/CountDownModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfiniteLoopProgram/InfiniteLoopControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfiniteLoopProgram/InfiniteLoopModelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/InfiniteLoopProgram/InfiniteLoopModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/InfiniteLoopProgram/InfiniteLoopModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CountDownProgram/CountDownControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CountDownProgram/CountDownControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="UML Clases funcionamiento de los programas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +15,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -62,9 +56,13 @@
     "Application.InfiniteLoopProgram.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Reverser.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Class",
     "JUnit.CountDownControllerTest.executor": "Run",
+    "JUnit.CountDownModelTest.executor": "Run",
+    "JUnit.HaltCheckerTest.executor": "Run",
     "JUnit.InfiniteLoopControllerTest.executor": "Run",
     "JUnit.InfiniteLoopModelTest.executor": "Run",
+    "JUnit.ReverserTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -96,12 +94,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="HaltChecker" />
+      <recent name="Reverser" />
       <recent name="InfiniteLoopProgram" />
       <recent name="CountDownProgram" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HaltCheckerTest">
-    <configuration name="CountDownControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountDownProgram.Main" />
       <module name="ExamenTECPROG4" />
       <extension name="coverage">
         <pattern>
@@ -109,9 +110,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CountDownProgram" />
-      <option name="MAIN_CLASS_NAME" value="CountDownProgram.CountDownControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.HaltCheckerTest" />
         <item itemvalue="JUnit.ReverserTest" />
         <item itemvalue="JUnit.CountDownModelTest" />
         <item itemvalue="JUnit.InfiniteLoopModelTest" />
-        <item itemvalue="JUnit.CountDownControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +208,7 @@
       <workItem from="1714904469278" duration="2000" />
       <workItem from="1715174513320" duration="69000" />
       <workItem from="1715257490245" duration="11708000" />
-      <workItem from="1715269293363" duration="1396000" />
+      <workItem from="1715269293363" duration="2339000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -452,7 +450,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715270431318</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Tests">
+      <option name="closed" value="true" />
+      <created>1715270941792</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1715270941792</updated>
+    </task>
+    <task id="LOCAL-00032" summary="UML Clases funcionamiento de los programas">
+      <option name="closed" value="true" />
+      <created>1715271460950</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1715271460950</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,8 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion." />
-    <MESSAGE value="Definición del booleano chechHalt para detener o no el programa si este encuentra o no su entrada especifica" />
     <MESSAGE value="Creamos el buble de comprobación de entrada." />
     <MESSAGE value="Implementación del funcionamiento de Reverser.java" />
     <MESSAGE value="Realizado cambios en el CountdDownProgram. Decidido aplicar el MDV para distribuir las funciones del programa. Creado el CountDownModel empleanto un patron de diseño basado en Observer" />
@@ -495,6 +507,8 @@
     <MESSAGE value="Optimización y JavaDocs" />
     <MESSAGE value="Reverser.java y javadoc" />
     <MESSAGE value="Corrección de enunciados javadoc en Reverser.java y generación de test de starCounting (CountDownControllerTest.java)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrección de enunciados javadoc en Reverser.java y generación de test de starCounting (CountDownControllerTest.java)" />
+    <MESSAGE value="Tests" />
+    <MESSAGE value="UML Clases funcionamiento de los programas" />
+    <option name="LAST_COMMIT_MESSAGE" value="UML Clases funcionamiento de los programas" />
   </component>
 </project>

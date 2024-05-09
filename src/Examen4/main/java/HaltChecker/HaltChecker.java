@@ -3,6 +3,33 @@ package HaltChecker;
 import javax.swing.*;
 
 /**
+ * Esta clase representa un programa simple llamado Halt Checker que muestra
+ * información sobre el estado de dos programas diferentes: CountDownProgram e
+ * InfiniteLoopProgram. Como parte de este ejercicio, he explorado el concepto
+ * de detección de parada en programas de computadora. A través de esta simulación,
+ * he reflexionado sobre la indecibilidad del problema de parada y cómo podemos
+ * simular su funcionalidad mediante la evaluación de condiciones específicas en
+ * los programas.
+ * <p>
+ * Además, he discutido cómo la capacidad de determinar si un programa se
+ * detendrá o continuará ejecutándose es esencial en el desarrollo de software,
+ * especialmente en sistemas críticos y aplicaciones donde la estabilidad y
+ * el rendimiento son fundamentales.
+ * <p>
+ * Esta experiencia me ha llevado a considerar las complejidades inherentes en
+ * la predicción del comportamiento de los programas, y cómo incluso problemas
+ * aparentemente simples pueden volverse intratables cuando se analizan en profundidad.
+ * <p>
+ * A través de este ejercicio, también he reconocido la importancia de la
+ * prueba rigurosa y la validación del software para garantizar que funcione
+ * según lo esperado y se comporte de manera predecible en una variedad de
+ * situaciones y condiciones.
+ *
+ * @see CountDownProgram
+ * @see InfiniteLoopProgram
+ */
+
+/**
  * Esta clase representa una aplicación simple llamada Halt Checker que muestra información sobre
  * el estado de dos programas diferentes.
  */
@@ -73,3 +100,4 @@ public class HaltChecker extends JFrame {
         infiniteLoopLabel.setText("InfiniteLoopProgram se detiene: " + seDetieneInfiniteLoop);
     }
 }
+

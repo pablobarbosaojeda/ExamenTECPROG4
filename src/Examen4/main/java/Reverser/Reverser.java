@@ -3,6 +3,32 @@ package Reverser;
 import javax.swing.*;
 
 /**
+ * Esta clase representa un programa llamado Reverser que utiliza HaltChecker.
+ * Reverser toma el código de un programa y lo usa como entrada para ese mismo
+ * programa. Si HaltChecker indica que el programa se detendrá, entonces Reverser
+ * entra en un bucle infinito; si indica que no se detendrá, entonces Reverser
+ * termina inmediatamente.
+ * <p>
+ * Al desarrollar Reverser, he obtenido una perspectiva interesante sobre cómo
+ * podemos manipular el flujo de ejecución de un programa en función de condiciones
+ * externas. A través de este ejercicio, he explorado cómo podemos utilizar la
+ * información sobre la parada de programas para controlar el comportamiento
+ * de otros programas de manera dinámica.
+ * <p>
+ * En particular, he reflexionado sobre cómo esta capacidad podría ser útil en
+ * situaciones donde necesitamos adaptar el comportamiento de un sistema en tiempo
+ * real en respuesta a cambios en su entorno o condiciones imprevistas.
+ * <p>
+ * Además, he considerado las implicaciones éticas y de seguridad de este tipo
+ * de manipulación de software, reconociendo la necesidad de garantizar que estas
+ * técnicas se utilicen de manera responsable y ética, especialmente en aplicaciones
+ * críticas para la seguridad y la integridad de los sistemas y datos.
+ *
+ * @see HaltChecker
+ * @see HaltChecker#determinarParada(String)
+ */
+
+/**
  * Esta clase representa una aplicación simple llamada Reverser que muestra información sobre
  * el estado de dos programas diferentes.
  */
@@ -69,3 +95,4 @@ public class Reverser extends JFrame {
         infiniteLoopLabel.setText("InfiniteLoopProgram se detiene: " + seDetieneInfiniteLoop);
     }
 }
+
