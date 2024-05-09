@@ -3,7 +3,12 @@ package Reverser;
 import javax.swing.*;
 
 /**
- * Esta clase representa un programa llamado Reverser que utiliza HaltChecker.
+ * Esta clase representa una aplicación simple llamada Reverser que muestra información sobre
+ * el estado de dos programas diferentes.
+ */
+
+/**
+ * Conclusiones:
  * Reverser toma el código de un programa y lo usa como entrada para ese mismo
  * programa. Si HaltChecker indica que el programa se detendrá, entonces Reverser
  * entra en un bucle infinito; si indica que no se detendrá, entonces Reverser
@@ -25,13 +30,10 @@ import javax.swing.*;
  * críticas para la seguridad y la integridad de los sistemas y datos.
  *
  * @see HaltChecker
- * @see HaltChecker#determinarParada(String)
+ * @see HaltChecker# determinarParada(String)
  */
 
-/**
- * Esta clase representa una aplicación simple llamada Reverser que muestra información sobre
- * el estado de dos programas diferentes.
- */
+
 public class Reverser extends JFrame {
 
     /**

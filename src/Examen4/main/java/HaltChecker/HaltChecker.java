@@ -5,9 +5,12 @@ import javax.swing.*;
 /**
  * Esta clase representa un programa simple llamado Halt Checker que muestra
  * información sobre el estado de dos programas diferentes: CountDownProgram e
- * InfiniteLoopProgram. Como parte de este ejercicio, he explorado el concepto
+ * InfiniteLoopProgram.
+    * <p>
+ * Conclusiones:
+ * Como parte de este ejercicio, he explorado el concepto
  * de detección de parada en programas de computadora. A través de esta simulación,
- * he reflexionado sobre la indecibilidad del problema de parada y cómo podemos
+ * he reflexionado sobre la indecidibilidad del problema de parada y cómo podemos
  * simular su funcionalidad mediante la evaluación de condiciones específicas en
  * los programas.
  * <p>
@@ -29,10 +32,6 @@ import javax.swing.*;
  * @see InfiniteLoopProgram
  */
 
-/**
- * Esta clase representa una aplicación simple llamada Halt Checker que muestra información sobre
- * el estado de dos programas diferentes.
- */
 public class HaltChecker extends JFrame {
 
     /**
