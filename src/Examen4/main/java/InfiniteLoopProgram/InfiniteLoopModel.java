@@ -28,4 +28,8 @@ public class InfiniteLoopModel extends Observable{
             }
         }
     }
+
+    public int getCount(){
+        return count;
+    }
 }
