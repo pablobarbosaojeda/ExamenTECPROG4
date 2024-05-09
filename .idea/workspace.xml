@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Agregar método startCounting en InfiniteLoopController.java">
-      <change afterPath="$PROJECT_DIR$/src/Examen4/main/java/InfiniteLoopProgram/Main.java" afterDir="false" />
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Main de testeo del programa InfiniteLoop">
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <workItem from="1714734372139" duration="1216000" />
       <workItem from="1714904469278" duration="2000" />
       <workItem from="1715174513320" duration="69000" />
-      <workItem from="1715257490245" duration="626000" />
+      <workItem from="1715257490245" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715258050088</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Main de testeo del programa InfiniteLoop">
+      <option name="closed" value="true" />
+      <created>1715258176099</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715258176099</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +269,7 @@
     <MESSAGE value="Ajustes en el InfiniteLoopView.java y implementacion de updateCount y update; implementado funcion getCount en InfiniteLoopModel.java" />
     <MESSAGE value="Definicion de InfiniteLoopController.java y constructor" />
     <MESSAGE value="Agregar método startCounting en InfiniteLoopController.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar método startCounting en InfiniteLoopController.java" />
+    <MESSAGE value="Main de testeo del programa InfiniteLoop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main de testeo del programa InfiniteLoop" />
   </component>
 </project>
