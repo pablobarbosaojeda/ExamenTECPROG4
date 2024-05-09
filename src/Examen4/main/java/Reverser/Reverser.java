@@ -4,7 +4,7 @@ import javax.swing.*;
 
 /**
  * Esta clase representa una aplicación simple llamada Reverser que muestra información sobre
- * el estado contrario de dos programas diferentes respecto a HaltChecker.
+ * el estado de dos programas diferentes.
  */
 public class Reverser extends JFrame {
 
@@ -46,15 +46,11 @@ public class Reverser extends JFrame {
      */
     public static void main(String[] args) {
         // Crear y mostrar la ventana en el hilo de eventos de Swing
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                new Reverser();
-            }
-        });
+        SwingUtilities.invokeLater(Reverser::new);
     }
 
     /**
-     * Método que simula la funcionalidad contraria a HaltChecker al verificar si los programas se detienen o no.
+     * Método que simula la funcionalidad de HaltChecker al verificar si los programas se detienen o no.
      */
     private void verificarProgramas() {
         // Simular la verificación del programa CountDownProgram
