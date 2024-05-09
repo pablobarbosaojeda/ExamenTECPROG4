@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Optimización del Codigo y implementacion de los métodos de HaltChecker.java">
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" afterDir="false" />
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Optimización y JavaDocs">
+      <change afterPath="$PROJECT_DIR$/src/Examen4/main/java/Reverser/Reverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     "Application.InfiniteLoopProgram.Main.executor": "Run",
     "Application.InfiniteLoopProgram.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Reverser.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -62,25 +62,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pablo\IdeaProjects\ExamenTECPROG4\src\Examen4\main\java\Reverser" />
       <recent name="C:\Users\pablo\IdeaProjects\ExamenTECPROG4\src\Examen4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HaltChecker">
+  <component name="RunManager" selected="Application.Reverser">
     <configuration name="HaltChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HaltChecker.HaltChecker" />
-      <module name="ExamenTECPROG4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HaltChecker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HaltCheckerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HaltChecker.HaltCheckerApp" />
       <module name="ExamenTECPROG4" />
       <extension name="coverage">
         <pattern>
@@ -131,13 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reverser.Reverser" />
+      <module name="ExamenTECPROG4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reverser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reverser" />
         <item itemvalue="Application.HaltChecker" />
         <item itemvalue="Application.HaltCheckerGUI" />
         <item itemvalue="Application.InfiniteLoopProgram.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HaltCheckerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,7 @@
       <workItem from="1714734372139" duration="1216000" />
       <workItem from="1714904469278" duration="2000" />
       <workItem from="1715174513320" duration="69000" />
-      <workItem from="1715257490245" duration="9231000" />
+      <workItem from="1715257490245" duration="10609000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -382,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715266532409</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Optimización y JavaDocs">
+      <option name="closed" value="true" />
+      <created>1715267040713</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1715267040713</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configuracion de las clases del Problema de Param" />
     <MESSAGE value="Implementacion del programa cuenta atras agregando un sleep mediante la utilizacion de Thread.sleep  para realizar la espera de 1 s entre cada interración. Se realiza posteriormente la captura de dicha excepción. (CountDownProgram.java)" />
     <MESSAGE value="Creación de la base del bucle de InfiniteLoopProgram.java" />
     <MESSAGE value="Agregamos a InfiniteLoopProgram.java la función sleep para realizar un segundo de espera entre cada interración. Capturamos la excepcion de interrupcion." />
@@ -425,6 +433,7 @@
     <MESSAGE value="Cambios en HaltChecker.java y implementacion de lainterfaz Program.java" />
     <MESSAGE value="Optimización de CounDown y InfiniteLoop programs" />
     <MESSAGE value="Optimización del Codigo y implementacion de los métodos de HaltChecker.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimización del Codigo y implementacion de los métodos de HaltChecker.java" />
+    <MESSAGE value="Optimización y JavaDocs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimización y JavaDocs" />
   </component>
 </project>
