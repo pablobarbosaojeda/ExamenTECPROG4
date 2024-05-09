@@ -9,4 +9,9 @@ public class InfiniteLoopController {
         this.view = view;
         model.addObserver(view); //Registrar la vista como observadora del modelo
     }
+
+    public void startCounting(){
+
+        model.startCounting(); //Iniciar el conteo
+    }
 }
