@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Definición de Program.java">
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltChecker.java" afterDir="false" />
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Definición de HaltChecker.java">
+      <change afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltCheckerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,7 @@
       <workItem from="1714734372139" duration="1216000" />
       <workItem from="1714904469278" duration="2000" />
       <workItem from="1715174513320" duration="69000" />
-      <workItem from="1715257490245" duration="1723000" />
+      <workItem from="1715257490245" duration="2138000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -252,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715259008125</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Definición de HaltChecker.java">
+      <option name="closed" value="true" />
+      <created>1715259430001</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715259430001</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +297,7 @@
     <MESSAGE value="Main de testeo del programa InfiniteLoop" />
     <MESSAGE value="Definimos un paquete HaltChecker incluyendo un Program.java y HaltChecker.java" />
     <MESSAGE value="Definición de Program.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Definición de Program.java" />
+    <MESSAGE value="Definición de HaltChecker.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Definición de HaltChecker.java" />
   </component>
 </project>
