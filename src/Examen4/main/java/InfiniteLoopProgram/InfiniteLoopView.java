@@ -1,37 +1,36 @@
-    package InfiniteLoopProgram;
-    import javax.swing.*;
-    import java.util.Observable;
-    import java.util.Observer;
+package InfiniteLoopProgram;
 
-    public class InfiniteLoopView extends JFrame implements Observer {
-        private JLabel countLabel;
+import javax.swing.*;
+import java.util.Observable;
+import java.util.Observer;
 
-        public InfiniteLoopView() {
-            setTitle("Contador Hacia Arriba");
-            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+public class InfiniteLoopView extends JFrame implements Observer {
+    private JLabel countLabel;
 
-            JPanel panel = new JPanel();
-            countLabel = new JLabel("Count: 1");
-            panel.add(countLabel);
+    public InfiniteLoopView() {
+        setTitle("Contador Hacia Arriba");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-            add(panel);
-            pack();
-            setLocationRelativeTo(null);
-            setVisible(true);
-        }
+        JPanel panel = new JPanel();
+        countLabel = new JLabel("Count: 1");
+        panel.add(countLabel);
 
-        @Override
-        public void update(Observable o, Object arg){
-            if (o instanceof InfiniteLoopModel){
-                InfiniteLoopModel model = (InfiniteLoopModel) o;
-                int count = model.getCount();
-                updateCount(count);
-            }
-        }
-
-        private void updateCount(int count){
-            countLabel.setText("Count: " + count);
-        }
-
-
+        add(panel);
+        pack();
+        setLocationRelativeTo(null);
+        setVisible(true);
     }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        if (o instanceof InfiniteLoopModel) {
+            InfiniteLoopModel model = (InfiniteLoopModel) o;
+            int count = model.getCount();
+            updateCount(count);
+        }
+    }
+
+    private void updateCount(int count) {
+        countLabel.setText("Count: " + count);
+    }
+}

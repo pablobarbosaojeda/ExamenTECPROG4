@@ -1,10 +1,13 @@
 package CountDownProgram;
+
 import javax.swing.*;
 import java.util.Observable;
 import java.util.Observer;
-public class CountDownView extends JFrame implements Observer{
+
+public class CountDownView extends JFrame implements Observer {
     private JLabel countLabel;
-    public CountDownView(){
+
+    public CountDownView() {
         setTitle("Count Down");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -18,15 +21,15 @@ public class CountDownView extends JFrame implements Observer{
         setVisible(true);
     }
 
-    public void update(Observable o, Object arg){
-        if (o instanceof CountDownModel){
+    public void update(Observable o, Object arg) {
+        if (o instanceof CountDownModel) {
             CountDownModel model = (CountDownModel) o;
             int count = model.getCount();
             updateCount(count);
         }
     }
 
-    public void updateCount(int count){
+    public void updateCount(int count) {
         countLabel.setText("Count: " + count);
     }
 }
