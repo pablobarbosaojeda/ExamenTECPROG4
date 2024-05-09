@@ -13,7 +13,7 @@ public class InfiniteLoopModel extends Observable {
 
     private static InfiniteLoopModel instance;
 
-    private InfiniteLoopModel() {
+    public InfiniteLoopModel() {
         count = -1;
     }
 
