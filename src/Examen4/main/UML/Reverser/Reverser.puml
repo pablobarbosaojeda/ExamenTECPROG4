@@ -1,0 +1,9 @@
+@startuml
+
+class Reverser extends JFrame {
+    +Reverser()
+    -verificarProgramas()
+    {static} +main(String[]): void
+}
+
+@enduml

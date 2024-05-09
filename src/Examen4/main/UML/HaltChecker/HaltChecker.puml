@@ -1,0 +1,9 @@
+@startuml
+
+class HaltChecker extends JFrame {
+    +HaltChecker()
+    -verificarProgramas()
+    {static} +main(String[]): void
+}
+
+@enduml

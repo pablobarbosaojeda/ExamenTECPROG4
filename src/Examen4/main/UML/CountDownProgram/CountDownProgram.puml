@@ -1,0 +1,29 @@
+@startuml
+
+class CountDownView {
+    -countLabel: JLabel
+    +CountDownView()
+    +update(Observable, Object)
+    +updateCount(int)
+}
+
+class CountDownModel {
+    -count: int
+    +CountDownModel(int)
+    +countDown()
+    +getCount(): int
+    +isFinished(): boolean
+}
+
+class CountDownController {
+    -model: CountDownModel
+    -view: CountDownView
+    +CountDownController(CountDownModel, CountDownView)
+    +startCounting()
+}
+
+CountDownModel -right-> CountDownView: notifies
+CountDownController --> CountDownModel: uses
+CountDownController --> CountDownView: uses
+
+@enduml

@@ -1,0 +1,29 @@
+@startuml
+
+class InfiniteLoopView {
+    -countLabel: JLabel
+    +InfiniteLoopView()
+    +update(Observable, Object)
+    -updateCount(int)
+}
+
+class InfiniteLoopModel {
+    -count: int
+    +getInstance(): InfiniteLoopModel
+    +InfiniteLoopModel()
+    +startCounting()
+    +getCount(): int
+}
+
+class InfiniteLoopController {
+    -model: InfiniteLoopModel
+    -view: InfiniteLoopView
+    +InfiniteLoopController(InfiniteLoopModel, InfiniteLoopView)
+    +startCounting()
+}
+
+InfiniteLoopModel -right-> InfiniteLoopView: notifies
+InfiniteLoopController --> InfiniteLoopModel: uses
+InfiniteLoopController --> InfiniteLoopView: uses
+
+@enduml
