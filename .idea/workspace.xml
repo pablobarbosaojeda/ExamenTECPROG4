@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Definición de HaltChecker.java">
-      <change afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltCheckerApp.java" afterDir="false" />
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Optimización de CounDown y InfiniteLoop programs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltCheckerApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/Program.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,32 +37,112 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CountDownProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InfiniteLoopProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CountDownProgram.executor": "Run",
+    "Application.HaltChecker.executor": "Run",
+    "Application.HaltCheckerApp.executor": "Run",
+    "Application.HaltCheckerGUI.executor": "Run",
+    "Application.InfiniteLoopProgram.Main.executor": "Run",
+    "Application.InfiniteLoopProgram.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pablo\IdeaProjects\ExamenTECPROG4\src\Examen4" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.HaltChecker">
+    <configuration name="HaltChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HaltChecker.HaltChecker" />
+      <module name="ExamenTECPROG4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HaltChecker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HaltCheckerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HaltChecker.HaltCheckerApp" />
+      <module name="ExamenTECPROG4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HaltChecker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HaltCheckerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HaltChecker.HaltCheckerGUI" />
+      <module name="ExamenTECPROG4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HaltChecker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfiniteLoopProgram.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InfiniteLoopProgram.Main" />
+      <module name="ExamenTECPROG4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InfiniteLoopProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountDownProgram.Main" />
+      <module name="ExamenTECPROG4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CountDownProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HaltChecker" />
+        <item itemvalue="Application.HaltCheckerGUI" />
+        <item itemvalue="Application.InfiniteLoopProgram.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HaltCheckerApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -82,7 +167,7 @@
       <workItem from="1714734372139" duration="1216000" />
       <workItem from="1714904469278" duration="2000" />
       <workItem from="1715174513320" duration="69000" />
-      <workItem from="1715257490245" duration="2138000" />
+      <workItem from="1715257490245" duration="8932000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -260,7 +345,39 @@
       <option name="project" value="LOCAL" />
       <updated>1715259430001</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Creacion de la clase HaltCheckerApp.java para la creacion de instancias y ejecución de HaltChecker.java">
+      <option name="closed" value="true" />
+      <created>1715259899975</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715259899975</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Verificacion de cambios de countdown y infiniteloop">
+      <option name="closed" value="true" />
+      <created>1715261507184</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715261507184</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Cambios en HaltChecker.java y implementacion de lainterfaz Program.java">
+      <option name="closed" value="true" />
+      <created>1715261767841</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715261767841</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Optimización de CounDown y InfiniteLoop programs">
+      <option name="closed" value="true" />
+      <created>1715263110636</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715263110636</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +415,10 @@
     <MESSAGE value="Definimos un paquete HaltChecker incluyendo un Program.java y HaltChecker.java" />
     <MESSAGE value="Definición de Program.java" />
     <MESSAGE value="Definición de HaltChecker.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Definición de HaltChecker.java" />
+    <MESSAGE value="Creacion de la clase HaltCheckerApp.java para la creacion de instancias y ejecución de HaltChecker.java" />
+    <MESSAGE value="Verificacion de cambios de countdown y infiniteloop" />
+    <MESSAGE value="Cambios en HaltChecker.java y implementacion de lainterfaz Program.java" />
+    <MESSAGE value="Optimización de CounDown y InfiniteLoop programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimización de CounDown y InfiniteLoop programs" />
   </component>
 </project>

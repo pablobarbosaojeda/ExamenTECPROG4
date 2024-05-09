@@ -1,6 +1,5 @@
 package CountDownProgram;
 
-import javax.swing.*;
 
 public class CountDownController {
     private CountDownModel model;

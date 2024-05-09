@@ -2,6 +2,7 @@ package CountDownProgram;
 
 import java.util.Observable;
 
+
 public class CountDownModel extends Observable {
     private int count;
 
@@ -20,4 +21,9 @@ public class CountDownModel extends Observable {
     public int getCount() {
         return count;
     }
+
+    public boolean isFinished() {
+        return count == 0;
+    }
 }
+

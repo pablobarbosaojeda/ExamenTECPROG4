@@ -1,17 +1,35 @@
 package HaltChecker;
-import java.util.List;
-public class HaltChecker {
 
-        public boolean checkHalting(Program program, Input input) {
-            return program.halt(input);
-        }
+import javax.swing.*;
 
-        // Método sobrecargado para verificar múltiples programas con la misma entrada
-        public void checkHalting(List<Program> programs, Input input) {
-            for (Program program : programs) {
-                boolean halts = checkHalting(program, input);
-                System.out.println(program.getClass().getSimpleName() + " halts: " + halts);
-            }
-        }
+public class HaltChecker extends JFrame {
+
+    public HaltChecker() {
+        setTitle("Halt Checker");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+
+        JLabel countDownLabel = new JLabel("CountDownProgram se detiene.");
+        JLabel spaceLabel = new JLabel(" ");
+        JLabel infiniteLoopLabel = new JLabel("InfiniteLoopProgram no se detiene (bucle infinito).");
+
+        panel.add(countDownLabel);
+        panel.add(spaceLabel);
+        panel.add(infiniteLoopLabel);
+
+        add(panel);
+        pack();
+        setLocationRelativeTo(null);
+        setVisible(true);
     }
 
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new HaltChecker();
+            }
+        });
+    }
+}
