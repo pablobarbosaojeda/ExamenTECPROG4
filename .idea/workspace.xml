@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Optimización de CounDown y InfiniteLoop programs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="427133a4-1cbd-4894-9ebc-bbc8171b2b0c" name="Changes" comment="Optimización del Codigo y implementacion de los métodos de HaltChecker.java">
       <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/HaltCheckerApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/HaltChecker/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/CountDownProgram/CountDownView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examen4/main/java/Reverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +164,7 @@
       <workItem from="1714734372139" duration="1216000" />
       <workItem from="1714904469278" duration="2000" />
       <workItem from="1715174513320" duration="69000" />
-      <workItem from="1715257490245" duration="8932000" />
+      <workItem from="1715257490245" duration="9231000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion de las clases del Problema de Param">
       <option name="closed" value="true" />
@@ -377,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715263110636</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Optimización del Codigo y implementacion de los métodos de HaltChecker.java">
+      <option name="closed" value="true" />
+      <created>1715266532409</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715266532409</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +424,7 @@
     <MESSAGE value="Verificacion de cambios de countdown y infiniteloop" />
     <MESSAGE value="Cambios en HaltChecker.java y implementacion de lainterfaz Program.java" />
     <MESSAGE value="Optimización de CounDown y InfiniteLoop programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimización de CounDown y InfiniteLoop programs" />
+    <MESSAGE value="Optimización del Codigo y implementacion de los métodos de HaltChecker.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimización del Codigo y implementacion de los métodos de HaltChecker.java" />
   </component>
 </project>
